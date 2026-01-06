@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "typescript": "^5.9.3"
+  },
+    "compilerOptions": {
+    "target": "ES6",
+    "strict": true
+  }
+}
