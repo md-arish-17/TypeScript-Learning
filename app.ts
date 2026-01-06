@@ -51,6 +51,11 @@ let direction:"up"|"down"
 direction = "up"
 // direction = "left"
 
+function add(x:number,y:number){
+    console.log(x + y)
+}
+add(10,99)
+
 console.log(num)
 console.log(str)
 console.log(empty)

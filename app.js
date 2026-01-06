@@ -39,6 +39,10 @@ var userRole = Role.Admin;
 var direction;
 direction = "up";
 // direction = "left"
+function add(x, y) {
+    console.log(x + y);
+}
+add(10, 99);
 console.log(num);
 console.log(str);
 console.log(empty);
