@@ -27,6 +27,30 @@ function funcError():never{
 }
 // funcError()
 
+let myData:number|string = 23
+console.log(typeof myData)
+
+type employee = {fName : string}
+type manager = {department : string}
+type TeamLead = employee & manager
+let company:TeamLead = {fName:"usman lala", department:"King of the World"}
+console.log(company);
+
+type id = string | number
+let userId:id = "1234"
+console.log(userId);
+
+enum Role{
+    Admin,
+    User,
+    Guest
+}
+let userRole:Role = Role.Admin
+
+let direction:"up"|"down"
+direction = "up"
+// direction = "left"
+
 console.log(num)
 console.log(str)
 console.log(empty)

@@ -23,6 +23,22 @@ function funcError() {
     throw new Error("Usman Toys Error");
 }
 // funcError()
+var myData = 23;
+console.log(typeof myData);
+var company = { fName: "usman lala", department: "King of the World" };
+console.log(company);
+var userId = "1234";
+console.log(userId);
+var Role;
+(function (Role) {
+    Role[Role["Admin"] = 0] = "Admin";
+    Role[Role["User"] = 1] = "User";
+    Role[Role["Guest"] = 2] = "Guest";
+})(Role || (Role = {}));
+var userRole = Role.Admin;
+var direction;
+direction = "up";
+// direction = "left"
 console.log(num);
 console.log(str);
 console.log(empty);
